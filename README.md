@@ -11,21 +11,10 @@
 A NER system to identify drug name from text.
 
 
-## API Reference
-
-#### Get medicine details
-
-```http
-  POST localhost:8000/
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `text` | `string` | **Provide a string that contain a drug salt**.
-
-
-
-
+## Important Note
+    1. It's only work for salt name
+    2. Medicine name extractor only works on notepad.
+    3. Medicine-ner contains code for Medicine Name Extractor
 ## Run Locally
 
 Clone the project
@@ -45,6 +34,21 @@ Start the server
 ```bash
   python manage.py runserver
 ```
+
+
+## API Reference
+
+#### Get medicine details
+
+```http
+  POST localhost:8000/
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `text` | `string` | **Provide a string that contain a drug salt**.
+
+
 
 
 ## Tech Stack
