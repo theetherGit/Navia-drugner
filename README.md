@@ -13,7 +13,7 @@ A NER system to identify drug name from text.
 
 ## Important Note
     1. It's only work for salt name
-    2. Medicine name extractor only works on notepad.
+    2. Medicine name extractor only works on notebook.
     3. Medicine-ner contains code for Medicine Name Extractor
 ## Run Locally
 
